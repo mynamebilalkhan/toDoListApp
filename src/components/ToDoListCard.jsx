@@ -6,7 +6,6 @@ const ToDoListCard = () => {
 
   return (
     <div className="todo-list-card">
-      {console.log(state.list)}
       {state.list.map((item, index) => (
         <div key={index} className="city-card-item">
           {item}
